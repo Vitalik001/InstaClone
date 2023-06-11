@@ -1,0 +1,17 @@
+.Story{
+    display: flex;
+    width: 50px;
+    flex-direction: column;
+}
+
+.story-photo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.story-name{
+    font-weight: bold;
+    margin: 5px;
+}

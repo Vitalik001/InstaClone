@@ -1,0 +1,10 @@
+.Main{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Stories{
+    display: flex;
+    margin-bottom: 10px;
+}
