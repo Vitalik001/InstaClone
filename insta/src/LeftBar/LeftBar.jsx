@@ -1,12 +1,17 @@
-
+import "./leftbar.css"
 export default function LeftBar(){
     return (
-        <aside>
+        <aside className="Left-content">
+            <h3>Instagram</h3>
             <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-                {/* Add more list items as needed */}
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Reels</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="#">Create</a></li>
+                <li><a href="#">Profile</a></li>
             </ul>
         </aside>
     )

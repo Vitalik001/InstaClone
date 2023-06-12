@@ -6,5 +6,21 @@
 
 .Stories{
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+    height: 80px;
+    width: 700px;
+    /*background-color: darkgreen;*/
+    justify-content: left;
+
+}
+
+.Main-content{
+    display: flex;
+    flex-direction: column;
+    /*background-color: blue;*/
+}
+
+.Posts{
+    margin: auto;
+
 }
